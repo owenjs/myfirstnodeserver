@@ -9,18 +9,23 @@
   <meta name="author" content="Owenjs">
 
   <link href="./styles/main.css" rel="stylesheet">
+  <script src="./scripts/script.js" type="text/javascript"></script>
 
 </head>
 
 <body>
-  <p>Hello World!</p>
+
+  <h3>Enter Your Blog</h3>
 
   <form action="/create-post" method="POST">
     <textarea name="blogpost" rows="10" cols="14"></textarea>
     <button type="submit">Send</button>
   </form>
 
-  <img src="./img/placeholder.jpg">
+  <h4>Recent Blogs</h4>
+
+  <div class="post-container"></div>
+
 </body>
 
 </html>
