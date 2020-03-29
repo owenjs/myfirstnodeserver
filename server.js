@@ -1,7 +1,7 @@
 var http = require('http');
-var handler = require('./src/handlers.js');
+var routes = require('./src/routes.js');
 
-var server = http.createServer(handler);
+var server = http.createServer(routes);
 
 server.listen(3000, function () {
 
