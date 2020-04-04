@@ -1,2 +1,2 @@
-# myfirstcms
-My First CMS built using Node.js
+# myfirstnodeserver
+My First Node Server built using Node.js
